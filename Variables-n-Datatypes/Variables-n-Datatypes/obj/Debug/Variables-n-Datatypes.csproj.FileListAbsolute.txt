@@ -1,0 +1,7 @@
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\bin\Debug\Variables-n-Datatypes.exe.config
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\bin\Debug\Variables-n-Datatypes.exe
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\bin\Debug\Variables-n-Datatypes.pdb
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\obj\Debug\Variables-n-Datatypes.csprojAssemblyReference.cache
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\obj\Debug\Variables-n-Datatypes.csproj.CoreCompileInputs.cache
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\obj\Debug\Variables-n-Datatypes.exe
+C:\Users\devan\source\repos\Variables-n-Datatypes\Variables-n-Datatypes\obj\Debug\Variables-n-Datatypes.pdb

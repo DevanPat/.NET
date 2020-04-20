@@ -1,0 +1,7 @@
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\bin\Debug\Student's Daily Report.exe.config
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\bin\Debug\Student's Daily Report.exe
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\bin\Debug\Student's Daily Report.pdb
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\obj\Debug\Student's Daily Report.csprojAssemblyReference.cache
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\obj\Debug\Student's Daily Report.csproj.CoreCompileInputs.cache
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\obj\Debug\Student's Daily Report.exe
+C:\Users\devan\source\repos\Student's Daily Report\Student's Daily Report\obj\Debug\Student's Daily Report.pdb
