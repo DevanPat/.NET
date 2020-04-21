@@ -42,10 +42,17 @@ namespace ConsoleApp5
             //Console.WriteLine(checkit);
             //Console.ReadLine();
 
-            Console.WriteLine("Input your number here");
-            string number = Console.ReadLine();
-            int numb = Int32.Parse(number);
-            int num2 = numb / 9;
+            //Console.WriteLine("Input your number here");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //Int32 numb = number / 7;
+            //Int32 result = number % numb;
+            //Console.WriteLine(result);
+            //Console.ReadLine();
+
+            
+
+
+            
             
 
             
