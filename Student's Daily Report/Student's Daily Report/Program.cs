@@ -23,10 +23,7 @@ namespace Student_s_Daily_Report
             int pageNum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("The Page Number is " + pageNum);
             Console.WriteLine("Do you need help with anything? Please answer true or false.");
-            bool doyouNeedHelp = false;
-            bool needHelp = true;
-            Console.WriteLine(doyouNeedHelp);
-            Console.WriteLine(needHelp);
+            bool doyouNeedHelp = Convert.ToBoolean(Console.ReadLine());
             Console.WriteLine("Were there any positive experiences you would like to share? Please give specifics.");
             Console.ReadLine();
             Console.WriteLine("Is there any other feedback you would like to provide? Please be specific.");
