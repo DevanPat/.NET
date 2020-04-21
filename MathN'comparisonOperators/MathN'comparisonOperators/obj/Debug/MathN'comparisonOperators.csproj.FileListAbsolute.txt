@@ -1,0 +1,7 @@
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\bin\Debug\MathN'comparisonOperators.exe.config
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\bin\Debug\MathN'comparisonOperators.exe
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\bin\Debug\MathN'comparisonOperators.pdb
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\obj\Debug\MathN'comparisonOperators.csprojAssemblyReference.cache
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\obj\Debug\MathN'comparisonOperators.csproj.CoreCompileInputs.cache
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\obj\Debug\MathN'comparisonOperators.exe
+C:\Users\devan\source\repos\MathN'comparisonOperators\MathN'comparisonOperators\obj\Debug\MathN'comparisonOperators.pdb
