@@ -24,12 +24,16 @@ namespace ConsoleApp6
             Console.WriteLine("What is your weekly work hours?");
             Int32 hoursWorked2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Annual Salary of Person1");
-            Int32 annualSalary = hourlyRate1 * hoursWorked1 * 52;
-            Console.WriteLine(annualSalary);
+            Int32 person1Salary = hourlyRate1 * hoursWorked1 * 52;
+            Console.WriteLine(person1Salary);
             Console.ReadLine();
             Console.WriteLine("Annual Salary of Person2");
-            Int32 annualSalary2 = hourlyRate2 * hoursWorked2 * 52;
-            Console.WriteLine(annualSalary2);
+            Int32 person2Salary = hourlyRate2 * hoursWorked2 * 52;
+            Console.WriteLine(person2Salary);
+            Console.ReadLine();
+            Console.WriteLine("Does Person1 make more money then Person2?");
+            bool checkit = person1Salary > person2Salary;
+            Console.WriteLine(checkit);
             Console.ReadLine();
 
 
