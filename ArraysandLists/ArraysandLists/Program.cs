@@ -24,9 +24,7 @@ class Program
         intList.Remove(10);
 
         Console.WriteLine(intList[0]);
-        Console.ReadLine(); 
-
-        byte[] byteArray = new byte[5000]
+        Console.ReadLine();
 
 
 
