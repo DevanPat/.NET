@@ -24,10 +24,10 @@ namespace pg155cs
 
             Console.WriteLine("User please enter a number as a string.");
             string userTypes = Console.ReadLine();
-            string answer3 = methodic1.methodThree(userTypes);
+            int answer3 = methodic1.methodThree(userTypes);
             Console.WriteLine("Your answer is " + answer3);
             Console.ReadLine();
-
+            
         }
     }
 }

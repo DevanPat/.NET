@@ -19,11 +19,10 @@ namespace pg155cs
         }
 
 
-        public string methodThree(string a)
+        public int methodThree(string a)
         {
             int i = Int32.Parse(a);
-            return (a + 15);
-
+            return (i + 15);
         }
     }
 }
