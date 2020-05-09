@@ -12,7 +12,6 @@ namespace ConsoleApppg157
         {
             int result = x + 15;
             Console.WriteLine(y);
-            
         }
     }
 }

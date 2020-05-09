@@ -16,7 +16,7 @@ namespace ConsoleApppg160
             Console.WriteLine("User please enter a number for a math operation.");
             int x = Convert.ToInt32(Console.ReadLine());
             caseOnes.methodOne(x);
-            int b = caseOnes.methodTwo(x, out y);
+            int b = caseOnes.methodTwo(x, y);
             Console.WriteLine(b);
             Console.ReadLine();
 
