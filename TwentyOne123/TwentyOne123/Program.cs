@@ -11,6 +11,11 @@ namespace TwentyOne123
     {
         static void Main(string[] args)
         {
+            List<game> games = new List<game>();
+            twentyonegame game = new twentyonegame();
+            games.Add(game);
+
+
             Deck deck = new Deck();
             deck.Shuffle(3);
         

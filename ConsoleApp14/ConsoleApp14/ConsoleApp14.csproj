@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{729BE965-9C2C-4C49-9172-48B573633AB4}</ProjectGuid>
+    <ProjectGuid>{A90BA281-46CA-4B51-A691-ECB8C43583A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp70</RootNamespace>
-    <AssemblyName>ConsoleApp70</AssemblyName>
+    <RootNamespace>ConsoleApp14</RootNamespace>
+    <AssemblyName>ConsoleApp14</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dealer.cs" />
-    <Compile Include="game.cs" />
-    <Compile Include="player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="twentyonegame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -17,7 +17,7 @@ namespace ConsoleApppg157
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter a second number which will display on the screen");
             int y = Convert.ToInt32(Console.ReadLine());
-            classOnes.methodOne(x, y);
+            classOnes.methodOne(x = 4, y = 8);
             Console.ReadLine();
         }
     }
