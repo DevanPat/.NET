@@ -8,10 +8,13 @@ namespace ConsoleApp9
 {
         public class caseOne
         {
-            public void methodOne(int x)
+            public void methodOne(out int x)
             {
-                int result = x / 2;
-                Console.WriteLine(result);
+            Console.WriteLine("User enter a number.");
+            x = Convert.ToInt32(Console.ReadLine());
+            x = x / 2;
+            Console.WriteLine(x);
+                
             }
 
             public int methodTwo(int x, out int y)
