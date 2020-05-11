@@ -12,8 +12,8 @@ namespace ConsoleApppg170
         static void Main(string[] args)
         {
             Employee employees = new Employee();
-            employees.fName = "john";
-            employees.lName = "stamop";
+            employees.fName = "John ";
+            employees.lName = "Stamop";
             employees.SayName();
             Console.ReadLine();
         }
