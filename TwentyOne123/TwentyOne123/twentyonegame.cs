@@ -8,7 +8,7 @@ namespace TwentyOne123
 {
     public class twentyonegame : game
     {
-        public void Play()
+        public override void Play()
         {
             throw new NotImplementedException();
         }
