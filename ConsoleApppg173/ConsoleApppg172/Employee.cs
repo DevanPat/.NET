@@ -4,21 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApppg170
+namespace ConsoleApppg172
 {
-    public class Employee : Person, IQuittable
+    class Employee : Person, IQuittable
     {
-
-
         public override void SayName()
         {
             Console.WriteLine(fName + lName);
         }
-
-
-       
     }
- }
-
-  
-
+}

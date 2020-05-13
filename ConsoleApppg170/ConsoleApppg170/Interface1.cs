@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApppg170
 {
-    public class Employee : Person, IQuittable
+    interface IQuittable
     {
 
-
-        public override void SayName()
+        public void Quit()
         {
-            Console.WriteLine(fName + lName);
+            Console.WriteLine("I wore socks though.");
         }
-
-
-       
     }
- }
-
-  
-
+}

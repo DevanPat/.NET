@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D2BB76B-83A6-499C-B508-D0D7B3F4ACC9}</ProjectGuid>
+    <ProjectGuid>{09764758-D983-4341-8E22-783D30AE384A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApppg170</RootNamespace>
-    <AssemblyName>ConsoleApppg170</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>ConsoleApppg172</RootNamespace>
+    <AssemblyName>ConsoleApppg172</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
-    <Compile Include="Interface1.cs" />
+    <Compile Include="IQuittable.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

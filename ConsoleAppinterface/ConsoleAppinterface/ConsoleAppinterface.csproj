@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D2BB76B-83A6-499C-B508-D0D7B3F4ACC9}</ProjectGuid>
+    <ProjectGuid>{BE1D449D-E4B5-440F-A21B-D4BF187E64CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApppg170</RootNamespace>
-    <AssemblyName>ConsoleApppg170</AssemblyName>
+    <RootNamespace>ConsoleAppinterface</RootNamespace>
+    <AssemblyName>ConsoleAppinterface</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Interface1.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="IWalkAway.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

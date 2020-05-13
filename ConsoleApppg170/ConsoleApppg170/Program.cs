@@ -7,15 +7,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApppg170
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
-            Employee employees = new Employee();
-            employees.fName = "John ";
-            employees.lName = "Stamop";
-            employees.SayName();
-            Console.ReadLine();
+            //Employee employees = new Employee();
+            //employees.fName = "John ";
+            //employees.lName = "Stamop";
+            //employees.SayName();
+            //Console.ReadLine();
+
+            Employee employee = new Employee();
+            employee.Quit(Employee employee);
+
         }
     }
 }
