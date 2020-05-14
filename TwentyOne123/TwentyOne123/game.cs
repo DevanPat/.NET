@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TwentyOne123
  { 
-    public abstract class game
+    public abstract class Game
     { 
 
-        public List<string> Players { get; set; }
+        public List<Player> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
@@ -17,7 +17,7 @@ namespace TwentyOne123
 
         public virtual void ListPlayers()
         {
-            foreach (string player in Players)
+            foreach (Player player in Players)
             {
                 Console.WriteLine(player);
             }

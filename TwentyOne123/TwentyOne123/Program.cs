@@ -11,16 +11,23 @@ namespace TwentyOne123
     {
         static void Main(string[] args)
         {
-            twentyonegame game = new twentyonegame();
-            game.Players = new List<string>() { "Daryl", "Joe", "Sam" };
-            game.ListPlayers();
-            Console.ReadLine();
-            List<game> games = new List<game>();
-            games.Add(game);
+            //twentyonegame game = new twentyonegame();
+            //game.Players = new List<string>() { "Daryl", "Joe", "Sam" };
+            //game.ListPlayers();
+            //Console.ReadLine();
+            //List<game> games = new List<game>();
+            //games.Add(game);
 
-
+            Game game = new twentyonegame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Devan";
+            game += player;
+            game -= player;    
             Deck deck = new Deck();
             deck.Shuffle(3);
+
+
         
 
 
