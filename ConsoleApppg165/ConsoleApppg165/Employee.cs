@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,19 +9,31 @@ namespace ConsoleApppg165
 {
     public class Employee : Person
     {
-        public List<int> ID { get; set; }
+        public int ID { get; set; }
 
-        public static bool operator ==(Employee employeeID1, Employee employeeID2)
+
+        public static bool operator ==(Employee employee1, Employee employee2)
         {
-            if (employeeID1 == employeeID2)
+            if (employee1.ID == employee2.ID)
             {
                 return true;
             }
-            else 
+            else
             {
                 return false;
             }
-                
+        }
+        public static bool operator !=(Employee employee1, Employee employee2)
+        { 
+           if (employee1.ID != employee2.ID)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            }
         }
     }
-}
+

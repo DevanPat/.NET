@@ -6,29 +6,34 @@ using System.Threading.Tasks;
 
 namespace ConsoleApppg165
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
             Employee Person = new Employee();
-            Person.fNames = new List<string> { "Sample", "John" };
-            Person.lNames = new List<string> { "Student", "Sumorop" };
+            Person.fNames = "Sample";
+            Person.lNames = "Student";
+            Person.ID = 88;
             Employee employee = new Employee();
-            employee.ID = new List<int> { 88, 99 };
-            Employee employeeID1 = new Employee();
-            Employee employeeID2 = new Employee();
-            
-
-            
-           
+            employee.fNames = "John";
+            employee.lNames = "Stans";
+            employee.ID = 12;
             Person.sayName();
+            Console.WriteLine(Person == employee);
+            Console.WriteLine(Person != employee);
             Console.ReadLine();
-
-            
-
-
-
 
         }
     }
 }
+            
+          
+            
+
+            
+           
+
+            
+
+
+

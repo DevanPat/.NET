@@ -10,8 +10,8 @@ namespace ConsoleApppg165
     public class Person
     {
         
-        public List<string> fNames { get; set; }
-        public List<string> lNames { get; set; }
+        public string fNames { get; set; }
+        public string lNames { get; set; }
 
         public void sayName()
         {
