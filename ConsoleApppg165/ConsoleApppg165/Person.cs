@@ -15,18 +15,18 @@ namespace ConsoleApppg165
 
         public void sayName()
         {
-            foreach (string fName in fNames)
-            {
-                foreach (string lName in lNames)
-                {
-                    Console.WriteLine("Name: " + fName + lName);
-                }
-            }
-        }
+        //    foreach (string fName in fNames)
+        //    {
+        //        foreach (string lName in lNames)
+        //        {
+        //            Console.WriteLine("Name: " + fName + lName);
+        //        }
+        //    }
+        //}
        
                 }
             }
         }
-    }
-}
+    
+
 

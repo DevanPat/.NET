@@ -7,33 +7,34 @@ using System.Threading.Tasks;
 
 namespace ConsoleApppg165
 {
-    public class Employee : Person
+    public class Employee<T>/* : Person*/
     {
         public int ID { get; set; }
+        public List<T> Things {get; set;}
+        
 
-
-        public static bool operator ==(Employee employee1, Employee employee2)
-        {
-            if (employee1.ID == employee2.ID)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
+        //public static bool operator ==(Employee employee1, Employee employee2)
+        //{
+        //    if (employee1.ID == employee2.ID)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //}
+        //public static bool operator !=(Employee employee1, Employee employee2)
+        //{ 
+        //   if (employee1.ID != employee2.ID)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
             }
         }
-        public static bool operator !=(Employee employee1, Employee employee2)
-        { 
-           if (employee1.ID != employee2.ID)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-            }
-        }
-    }
+    
 
