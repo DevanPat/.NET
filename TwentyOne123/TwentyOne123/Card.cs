@@ -7,7 +7,7 @@ using TwentyOne123;
 
 namespace TwentyOne123
 {
-    public class Card
+    public struct Card
     {
         //public Card()
         //{

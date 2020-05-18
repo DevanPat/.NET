@@ -12,16 +12,14 @@ namespace consoleapppg186
         {
 
 
-            try
-            {
+             Day Day = new Day();
                 Console.WriteLine("User please enter the current day of the week.");
-                int Day = Convert.ToInt32(Console.ReadLine());
-            }
-            catch (FormatException)
+            int dayUser = Convert.ToInt32(Console.ReadLine());
+            if (dayUser == Day)
             {
-                Console.WriteLine("Input was not in the correct format.");
+                Console.WriteLine(Day);
             }
-            Console.ReadLine();
+          
        
 
             
