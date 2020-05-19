@@ -6,7 +6,7 @@ namespace ConsoleApppg191
 {
     public struct Number
     {
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
     }
     
 
