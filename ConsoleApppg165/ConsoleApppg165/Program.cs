@@ -44,8 +44,9 @@ namespace ConsoleApppg165
             employee1s.Things = new List<int> { 1, 3, 7, 9, 2, 22, 33, 44, 31, 49 };
 
 
-            Employee<employees>employee1s.Things.Where(x => x > 5).ToList();
-            Console.WriteLine(Find1);
+            employee1s.Things = employee1s.Things.Where(x => x > 5).ToList();
+            Console.WriteLine(employee1s.Things);
+            Console.ReadLine();
 
 
             Employee<string> employee2s = new Employee<string>();
@@ -63,7 +64,7 @@ namespace ConsoleApppg165
 
 
 
-            Console.WriteLine(Find);
+            //Console.WriteLine(Find);
 
 
             Console.ReadLine();
