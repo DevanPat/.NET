@@ -9,10 +9,22 @@ namespace consoleapppg186
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+
+    public enum Day
+    {
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday
+    }
 
 
-             Day Day = new Day();
+
+    Day Day = new Day();
                 Console.WriteLine("User please enter the current day of the week.");
             int dayUser = Convert.ToInt32(Console.ReadLine());
             if (dayUser == Day)
@@ -31,5 +43,5 @@ namespace consoleapppg186
       
 
     }
-    }
+}   
 
