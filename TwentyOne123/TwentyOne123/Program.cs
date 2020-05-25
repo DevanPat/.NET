@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TwentyOne123;
+using System.IO;
 
 namespace TwentyOne123
 {
@@ -12,37 +13,61 @@ namespace TwentyOne123
     {
         static void Main(string[] args)
         {
+            string text = File.ReadAllText("C:\\Users\\devan\\c-logs\\log.txt");
 
-
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.Face = Face.Eight;
-            card2.Face = Face.King;
-
-            Console.WriteLine(card1.Face);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            Console.WriteLine("Welcome to the grand hotel and casino. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new twentyonegame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+                game -= player;
+                    Console.WriteLine("Thankyou for playing!");
+            }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.Read();
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //Card card1 = new Card();
+            //Card card2 = card1;
+            //card1.Face = Face.Eight;
+            //card2.Face = Face.King;
+
+            //Console.WriteLine(card1.Face);
             //twentyonegame game = new twentyonegame();
             //game.Players = new List<string>() { "Daryl", "Joe", "Sam" };
             //game.ListPlayers();
