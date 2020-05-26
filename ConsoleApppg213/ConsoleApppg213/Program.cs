@@ -11,13 +11,13 @@ namespace ConsoleApppg213
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DateTime.Now);
+            DateTime date1 = DateTime.Now;
             Console.WriteLine("User please enter a number below.");
-            string hours = Console.ReadLine();
-            DateTime userhour = DateTime.Parse(hours);
-            Console.WriteLine(userhour);
+            int hours = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(date1.AddHours(hours));
             Console.ReadLine();
-            
         }
     }
 }
+          
+            
