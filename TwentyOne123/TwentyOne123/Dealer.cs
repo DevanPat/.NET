@@ -20,6 +20,7 @@ namespace TwentyOne123
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\devan\c-logs\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
             Deck.Cards.RemoveAt(0);

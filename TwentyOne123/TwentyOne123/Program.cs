@@ -13,8 +13,14 @@ namespace TwentyOne123
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText("C:\\Users\\devan\\c-logs\\log.txt");
 
+            DateTime yearOfbirth = new DateTime(1995, 5, 23, 8, 32, 45);
+            DateTime graduAtion = new DateTime(2010, 10, 20, 9, 31, 40);
+            DateTime rand = new DateTime()
+
+            TimeSpan AgeatGrad = graduAtion - yearOfbirth;
+
+            string text = File.ReadAllText("C:\\Users\\devan\\c-logs\\log.txt");
             Console.WriteLine("Welcome to the grand hotel and casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
