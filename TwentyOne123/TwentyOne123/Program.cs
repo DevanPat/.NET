@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using TwentyOne123;
 using System.IO;
 
+
 namespace TwentyOne123
 {
     class Program
@@ -16,7 +17,6 @@ namespace TwentyOne123
 
             DateTime yearOfbirth = new DateTime(1995, 5, 23, 8, 32, 45);
             DateTime graduAtion = new DateTime(2010, 10, 20, 9, 31, 40);
-            DateTime rand = new DateTime()
 
             TimeSpan AgeatGrad = graduAtion - yearOfbirth;
 

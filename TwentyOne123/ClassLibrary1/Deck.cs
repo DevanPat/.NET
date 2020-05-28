@@ -4,9 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TwentyOne123;
 
-namespace TwentyOne123
+namespace Casino
 {
     public class Deck
     {
