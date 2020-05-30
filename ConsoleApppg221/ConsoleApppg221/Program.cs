@@ -15,6 +15,7 @@ namespace ConsoleApppg221
             const string carModel = "nissan leaf";
             var person = "Devan";
 
+            Blob blob = new Blob("50");
         }
     }
 }

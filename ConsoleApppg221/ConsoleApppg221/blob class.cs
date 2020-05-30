@@ -8,11 +8,11 @@ namespace ConsoleApppg221
 {
     class Blob
     {
-        public Blob(string age) : this(age, 40)
+        public Blob(string age) : this(age, "")
         {
         }
 
-        public Blob (string age, int hoursWorked)
+        public Blob (string age, string hoursWorked)
         {
             weekHours = hoursWorked;
             Age = age;
@@ -22,6 +22,6 @@ namespace ConsoleApppg221
 
 
         public string Age { get; set; }
-        public int weekHours { get; set; }
+        public string weekHours { get; set; }
     }
 }
