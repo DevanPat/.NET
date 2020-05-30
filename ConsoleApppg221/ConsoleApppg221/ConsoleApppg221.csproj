@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3E07CBA-4643-40EA-AE7A-AF7CF2AF9654}</ProjectGuid>
+    <ProjectGuid>{ADA33E16-4413-49B7-A8F7-59DB5A7A85CA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TwentyOne123</RootNamespace>
-    <AssemblyName>TwentyOne123</AssemblyName>
+    <RootNamespace>ConsoleApppg221</RootNamespace>
+    <AssemblyName>ConsoleApppg221</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Casino">
-      <HintPath>..\ClassLibrary1\bin\Debug\netstandard2.0\Casino.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="blob class.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

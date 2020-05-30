@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TwentyOne123;
 using System.IO;
-
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne123
 {
@@ -14,14 +14,11 @@ namespace TwentyOne123
     {
         static void Main(string[] args)
         {
+            const string casinoName = "Grand Hotel and Casino";
 
-            DateTime yearOfbirth = new DateTime(1995, 5, 23, 8, 32, 45);
-            DateTime graduAtion = new DateTime(2010, 10, 20, 9, 31, 40);
+            Guid identifier = Guid.NewGuid();
 
-            TimeSpan AgeatGrad = graduAtion - yearOfbirth;
-
-            string text = File.ReadAllText("C:\\Users\\devan\\c-logs\\log.txt");
-            Console.WriteLine("Welcome to the grand hotel and casino. Let's start by telling me your name.");
+            Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
@@ -30,6 +27,12 @@ namespace TwentyOne123
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\devan\c-logs\log.txt", true))
+                {
+                    file.WriteLine(DateTime.Now);
+                    file.WriteLine(player.Id);
+                }
                 Game game = new twentyonegame();
                 game += player;
                 player.isActivelyPlaying = true;
