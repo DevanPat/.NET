@@ -8,7 +8,7 @@ namespace ConsoleApppg221
 {
     class Blob
     {
-        public Blob(string age) : this(age, "")
+        public Blob(string age) : this(age, "50")
         {
         }
 
