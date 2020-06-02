@@ -12,19 +12,21 @@ namespace ConsoleAppPg225
     {
         static void Main(string[] args)
         {
-            bool checkResult = false;
-            int yearBorn = 0;
+
+            Console.WriteLine("User please enter your age below.");
+            string yearBorn = Console.ReadLine();
+
             try
             {
-                while (!checkResult)
-                {
-                    Console.WriteLine("User please enter your age below.");
-                    checkResult = int.TryParse(Console.ReadLine(), out yearBorn);
-                }
+                Console.WriteLine("User please enter your age below.");
+                int yearBorn1 = Convert.ToInt32(yearBorn);
+
             }
-            
+           
+
             catch (WrongException)
             {
+                if (int yearBorn1 < 0)
                 Console.WriteLine("There was an error. Number must be above 0.");
                 Console.ReadLine();
                 return;
@@ -35,19 +37,18 @@ namespace ConsoleAppPg225
                 Console.ReadLine();
                 return;
             }
-            finally 
+            if (yearBorn1 < 0)
             {
-                 WrongException();
+
             }
-            return;
-           
-               
-            
+
+
 
 
         }
+        }
     }
-}
+
 
             
             
