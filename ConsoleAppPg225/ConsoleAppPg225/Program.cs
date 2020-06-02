@@ -18,15 +18,16 @@ namespace ConsoleAppPg225
 
             try
             {
-                Console.WriteLine("User please enter your age below.");
                 int yearBorn1 = Convert.ToInt32(yearBorn);
-
+                if (yearBorn1 < 0)
+                {
+                    throw new WrongException();
+                }
             }
            
 
             catch (WrongException)
             {
-                if (int yearBorn1 < 0)
                 Console.WriteLine("There was an error. Number must be above 0.");
                 Console.ReadLine();
                 return;
@@ -37,10 +38,7 @@ namespace ConsoleAppPg225
                 Console.ReadLine();
                 return;
             }
-            if (yearBorn1 < 0)
-            {
-
-            }
+           
 
 
 
