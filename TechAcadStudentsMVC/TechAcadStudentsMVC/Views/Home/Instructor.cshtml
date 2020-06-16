@@ -1,4 +1,6 @@
-﻿
+﻿@model TechAcadStudentsMVC.Models.Instructor
+
+
 @{
   ViewBag.Title = "Instructor";
 }
@@ -9,3 +11,17 @@
   Details for Instructor with ID: @ViewBag.Id
 </h2>
 
+<p>
+  Further Details about the Instructor:
+</p>
+<ul>
+  <li>
+    Another Id: @Model.Id
+  </li>
+  <li>
+    Another Id: @Model.FirstName
+  </li>
+  <li>
+    Another Id: @Model.LastName
+  </li>
+</ul>
