@@ -18,7 +18,7 @@ namespace CarInsurance.Controllers
         // GET: Insurees
         public ActionResult Index()
         {
-            return View();
+            return View(db.Insurees.ToList());
         }
 
         // GET: Insurees/Details/5
