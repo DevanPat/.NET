@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SampleReport", "SampleReport\SampleReport.rptproj", "{7545525E-EF2C-4610-8670-4A6443A6D24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Debug|Default.ActiveCfg = Debug
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Debug|Default.Build.0 = Debug
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Debug|Default.Deploy.0 = Debug
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.DebugLocal|Default.Build.0 = DebugLocal
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Release|Default.ActiveCfg = Release
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Release|Default.Build.0 = Release
+		{7545525E-EF2C-4610-8670-4A6443A6D24B}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
