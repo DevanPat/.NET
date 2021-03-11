@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-web-appicon",
+  "version": "0.0.0",
+  "description": "NodejsWebAppicon",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
